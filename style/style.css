@@ -1,0 +1,131 @@
+.nav ul a {
+  font-weight: 700;
+  font-size: 15px;
+  color: #00126b;
+}
+
+.nav ul a:hover {
+  color: #f3632b;
+}
+
+header {
+  height: 300px;
+  background-color: #aaa;
+  background-image: url("/images/amarakonda-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  color: #f3632b;
+}
+
+header h1 {
+  text-align: center;
+  text-shadow: 2px 2px 0px #4c4c4c;
+  font-size: 0px;
+  -webkit-animation: myfirst 2s linear alternate;
+          animation: myfirst 2s linear alternate;
+  font-size: 300%;
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    font-size: 0px;
+    text-align: center;
+  }
+  100% {
+    text-align: center;
+    font-size: 300%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    font-size: 0px;
+    text-align: center;
+  }
+  100% {
+    text-align: center;
+    font-size: 300%;
+  }
+}
+
+main {
+  background: #aaaaaa;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #aaaaaa), color-stop(50%, #fbae06), color-stop(90%, #aaaaaa));
+  background: linear-gradient(0deg, #aaaaaa 10%, #fbae06 50%, #aaaaaa 90%);
+}
+
+main h2 {
+  color: #0f007d;
+  text-shadow: 1px 1px 0px #f3632b;
+}
+
+footer {
+  border: solid 2px #aaa;
+}
+
+.login-body {
+  text-align: center;
+  height: 100vh;
+  background: #aaaaaa;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #fbae06), color-stop(50%, #fbae06), color-stop(75%, #fbae06), color-stop(90%, #aaaaaa));
+  background: linear-gradient(#fbae06 25%, #fbae06 50%, #fbae06 75%, #aaaaaa 90%);
+}
+
+.login-body h1 {
+  text-shadow: 2px 2px 0px #4c4c4c;
+  font-size: 300%;
+}
+
+.login {
+  display: none;
+  width: 60%;
+  text-align: center;
+  position: fixed;
+  top: 30%;
+  left: 25%;
+  background-color: #aaa;
+  -webkit-box-shadow: black 10px 3px 9px 5px;
+          box-shadow: black 10px 3px 9px 5px;
+}
+
+.canvas {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#game-start {
+  display: none;
+  position: relative;
+  bottom: 140px;
+}
+
+.arrow-event {
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.276);
+  color: #0f007d47;
+  font-size: xx-large;
+}
+/*# sourceMappingURL=style.css.map */

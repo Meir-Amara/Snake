@@ -1,0 +1,105 @@
+.nav {
+  ul {
+    a {
+      font-weight: 700;
+      font-size: 15px;
+      color: #00126b;
+    }
+    a:hover {
+      color: #f3632b;
+    }
+  }
+}
+header {
+  height: 300px;
+  background-color: #aaa;
+  background-image: url("/images/amarakonda-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  color: #f3632b;
+  h1 {
+    text-align: center;
+    text-shadow: 2px 2px 0px #4c4c4c;
+    font-size: 0px;
+    animation: myfirst 2s linear alternate;
+    font-size: 300%;
+  }
+
+  @keyframes myfirst {
+    0% {
+      font-size: 0px;
+      text-align: center;
+    }
+    100% {
+      text-align: center;
+      font-size: 300%;
+    }
+  }
+}
+main {
+  background: rgb(170, 170, 170);
+  background: linear-gradient(
+    0deg,
+    rgba(170, 170, 170, 1) 10%,
+
+    rgba(251, 174, 6, 1) 50%,
+
+    rgba(170, 170, 170, 1) 90%
+  );
+  h2 {
+    color: #0f007d;
+    text-shadow: 1px 1px 0px #f3632b;
+  }
+}
+footer {
+  border: solid 2px #aaa;
+}
+
+.login-body {
+  text-align: center;
+  height: 100vh;
+  background: rgb(170, 170, 170);
+  background: linear-gradient(
+    rgba(251, 174, 6, 1) 25%,
+    rgba(251, 174, 6, 1) 50%,
+    rgba(251, 174, 6, 1) 75%,
+    rgba(170, 170, 170, 1) 90%
+  );
+  h1 {
+    text-shadow: 2px 2px 0px #4c4c4c;
+    font-size: 300%;
+  }
+}
+.login {
+  display: none;
+  width: 60%;
+  text-align: center;
+  position: fixed;
+  top: 30%;
+  left: 25%;
+  background-color: #aaa;
+  box-shadow: black 10px 3px 9px 5px;
+}
+.canvas {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#game-start {
+  display: none;
+  position: relative;
+  bottom: 140px;
+}
+.arrow-event {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.276);
+  color: #0f007d47;
+  font-size: xx-large;
+}
